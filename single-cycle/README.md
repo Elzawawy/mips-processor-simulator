@@ -1,7 +1,7 @@
 <h1 align='center'> Single Cycle Microarchitecture MIPS Processor</h1>
 
 <p align='center'>
-  <img src="./images/single-cycle.png"/>
+  <img src="../images/single-cycle.png"/>
 </p>
 
 Our model of the single-cycle MIPS processor divides the machine into **two major units:** *the
@@ -28,7 +28,7 @@ Understand the files, and modules of the system.
 - Each of **the memories** is a 64-word × 32-bit array. The instruction memory needs to contain some initial values representing the program.
 
 <p align='center'>
-  <img src="./images/single-cycle-comp.png"/>
+  <img src="../images/single-cycle-comp.png"/>
 </p>
 
 ## Testing the single-cycle MIPS processor
@@ -51,7 +51,7 @@ main decoder and ALU decoder as required.
 Our implementation cost is 1 new control signal, 1 new multiplexer, 1 new zero extender device and 2 more bus lines.
 
 <p align='center'>
-  <img src="./images/single-cycle-change-1.png"/>
+  <img src="../images/single-cycle-change-1.png"/>
 </p>
 
 - We added a zero-extender device that takes input 16 bits and extends them to 32 bits with adding 16 zeros. (this is needed because logical immediate instructions zero-extend the immediate not sign extend it as the arithmetic instructions)
@@ -66,7 +66,7 @@ Where, if this signal is equal to 1 🡪 the immediate is zero-extended but if i
 Our implementation to “bne” instruction cost is 1 new control signal, 1 and gate, 1 or gate, 1 not gate and 1 new bus line.
 
 <p align='center'>
-  <img src="./images/single-cycle-change-2.png"/>
+  <img src="../images/single-cycle-change-2.png"/>
 </p>
 
 - We first added a new control signal called “branchne”. This control signal is equal to 1 if and only if the instruction currently executed is “bne”, otherwise it is equal to zero.
