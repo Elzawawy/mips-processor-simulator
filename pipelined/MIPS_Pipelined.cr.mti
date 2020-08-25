@@ -1,0 +1,109 @@
+C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_blocks.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_blocks.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module flopr
+-- Compiling module floprc
+-- Compiling module flopenr
+-- Compiling module flopenrc
+-- Compiling module mux2
+-- Compiling module mux3
+-- Compiling module mux4
+-- Compiling module regfile
+-- Compiling module sl2
+-- Compiling module signext
+-- Compiling module eqcmp
+-- Compiling module adder
+-- Compiling module alu
+
+Top level modules:
+	flopr
+	floprc
+	flopenr
+	flopenrc
+	mux2
+	mux3
+	mux4
+	regfile
+	sl2
+	signext
+	eqcmp
+	adder
+	alu
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_datapath.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_datapath.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_aludecoder.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_aludecoder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_instrmemory.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_instrmemory.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_maindecoder.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_maindecoder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_controller.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_controller.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_testbench.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_testbench.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_processor.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_processor.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_interface.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_interface.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_hazardunit.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_hazardunit.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hazardunit
+
+Top level modules:
+	hazardunit
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_datamemory.sv {1 {vlog -work work_mips_pipelined -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_datamemory.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/final_MIPS_Pipelined/mips_coprocessor64.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\final_MIPS_Pipelined\mips_coprocessor64.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module coprocessor
+
+Top level modules:
+	coprocessor
+
+} {} {}}
