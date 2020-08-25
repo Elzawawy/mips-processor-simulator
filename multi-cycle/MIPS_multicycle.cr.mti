@@ -1,0 +1,50 @@
+C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_memory.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_memory.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_interface.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_interface.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_maindecoder.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_maindecoder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_controller.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_controller.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_processor.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_processor.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_aludecoder.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_aludecoder.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/MIPS_multicycle/mips_testbench.sv {1 {vlog -work work -sv -stats=none {C:\Modeltech_pe_edu_10.4a\examples\MIPS_multicycle\mips_testbench.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}
