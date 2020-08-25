@@ -43,7 +43,7 @@ Temporal parallelism is commonly called pipelining. Spatial parallelism is somet
 
 ## Implementation Steps
 
-1. The Datapath and control signals as shown in the first figure above supports the following instructions only (lw, sw, and, or, add, sub, beq, addi).
+1. The Datapath and control signals as shown in the figure above supports the following instructions only (lw, sw, and, or, add, sub, beq, addi).
 
 2. We then add extendibility of (j jumpAdr) operation by using a 3-input mux instead of a 2-input mux and allowing an extra bus to follow through the PC register. This requires that the control select signal of that mux to be 2 bits wide instead of 1 bit wide to select 10 in case of the jump address bus.
 
@@ -65,11 +65,5 @@ This section is considered the reference to reach any module in our project.We c
 9. File “mips_blocks.sv”, that includes all the building blocks (including the register file) needed by the Datapath and the controller to implement the ISA.
 10. File “mips_hazardunit.sv”, that includes the which is the unit responsible for the data and control hazxards handling using various methods. (“hazardunit” module).
 11. File “mips_coprocessor64.sv” that includes an added co-processor that handles 64-bit operations such as MULT and control the hi and lo registers which are not included in register file.
-
-### The final pipelined micro-architecture MIPS machine design implemented is shown below
-
-<p align='center'>
-  <img src="../images/pipeline-full.png"/>
-</p>
 
 ---
